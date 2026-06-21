@@ -1,7 +1,24 @@
+# Cronômetro Digital TTL/CMOS
+
+Projeto de um cronômetro digital utilizando circuitos TTL/CMOS, displays de 7 segmentos e alimentação diretamente da rede elétrica da CEMIG.
+
+## Licença
+
+Este projeto é licenciado sob a CERN-OHL-S v2.
+
+## Recursos do projeto
+
+- Contagem de minutos e segundos
+- Clock derivado da rede elétrica de 60 Hz
+- Displays de 7 segmentos
+- Circuitos TTL/CMOS
+- Projeto desenvolvido no KiCad
+## 
 1.	OBJETIVO
    
 Projetar e implementar um cronômetro digital capaz de contar os segundos e minutos. O dispositivo deverá ser alimentado exclusivamente a partir da rede elétrica da CEMIG. O cronômetro deverá possuir dois botões, sendo um para iniciar e parar a contagem do tempo (start/stop) e outro para zerar a contagem (reset). Os segundos e minutos serão mostrados em quatro displays de sete segmentos, sendo dois para os segundos (dezena e unidade) e dois para os minutos (dezena e unidade).
 
+## 
 2.	DESENVOLVIMENTO
    
 O sistema foi dividido em três subsistemas distintos e interligados, sendo eles : 
@@ -173,6 +190,7 @@ Optou-se por implementar o circuito para mostrar a contagem em uma placa de circ
 
 Figura 5 - Diagrama de roteamento da placa do circuito para mostrar a contagem.
 
+## 
 3.	CONCLUSÃO
 
 Neste trabalho foi projetado um cronômetro digital capaz de marcar os segundos e minutos a partir do comando do usuário, dados por chaves. O cronômetro digital é alimentado a partir da rede elétrica da CEMIG, sendo que o sinal de clock é gerado a partir do condicionamento da senoide de tensão da alimentação, o que garante estabilidade na contagem.
