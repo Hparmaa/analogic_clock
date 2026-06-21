@@ -1,6 +1,18 @@
+# KiCad temporary files
 *.bak
-*.tmp
+*.bck
+*-bak
 *-backup
-fp-info-cache
-*.kicad_prl
+*.tmp
+*.lck
 *.kicad_lck
+*.kicad_prl
+
+# KiCad cache
+fp-info-cache/
+
+# Autosaves (KiCad)
+*-save.kicad_sch
+*-save.kicad_pcb
+*.kicad_sch-bak
+*.kicad_pcb-bak
